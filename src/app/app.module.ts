@@ -6,12 +6,16 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { NavBarComponentComponent } from './nav-bar-component/nav-bar-component.component';
 import { HomeComponentComponent } from './home-component/home-component.component';
+import { HighlightSpecialDirective } from './highlight-special.directive';
+import { FormatPricePipe } from './format-price.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponentComponent,
-    HomeComponentComponent
+    HomeComponentComponent,
+    HighlightSpecialDirective,
+    FormatPricePipe
   ],
   imports: [
     BrowserModule,
